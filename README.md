@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+Chinese Language App
+This app is designed to help people learn Chinese with simple stories and examples for beginners.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Running the App Online
+You can access the app directly in your browser:
+https://jimy1974.github.io/ChineseLanguageApp/
 
-## Available Scripts
+Downloading and Running Locally
+If you'd like to download, install, and run the app on your own PC, follow these steps:
 
-In the project directory, you can run:
+1. Clone the Repository
+Download the source code to your computer using Git:
 
-### `npm start`
+bash
+Copy code
+git clone https://github.com/jimy1974/ChineseLanguageApp.git
+cd ChineseLanguageApp
+2. Install Dependencies
+Ensure you have Node.js installed. Then run:
 
-Runs the app in the development mode.\
-Open [http://localhost:5000](http://localhost:5000) to view it in your browser.
+bash
+Copy code
+npm install
+3. Run the App Locally
+Start the development server:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+bash
+Copy code
+npm start
+The app will be available in your browser at:
+http://localhost:3000 (or another port if 3000 is already in use).
 
-### `npm test`
+4. Build for Production
+If you'd like to create a production-ready build of the app:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However, we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+bash
+Copy code
+npm run build
+This will generate optimized static files in the build/ directory, which you can deploy to any web server.
